@@ -4,9 +4,8 @@ https://github.com/threat9/routersploit/issues/531
 
 I just simplified and fix the command so it will take less storage
 
-# Announcement
-
-To fix additional errors. I try to update this script soon, so please wait and be patient :)
+# I'm back!
+After 1 year im back again. I'll try updating this script as fast as possible. So be patience!
 
 # Installation
 
