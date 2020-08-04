@@ -33,7 +33,7 @@ Method 2
 
 ```
 apt update && apt upgrade -y
-apt install git
+apt install git python
 git clone https://github.com/41Team/RoutersploitTermux
 cd RoutersploitTermux
 python run.py
