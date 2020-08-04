@@ -4,9 +4,9 @@ https://github.com/threat9/routersploit/issues/531
 
 I just simplified and fix the command so it will take less storage
 
-# Updates
+# Update
 
-Now this script can run with shell or python
+Removing files
 
 # Before Installation
 
@@ -20,23 +20,11 @@ Now this script can run with shell or python
 
 # Installation
 
-Method 1
-
 ```
 apt update && apt upgrade
 apt install git curl
 curl -LO https://raw.githubusercontent.com/41Team/RoutersploitTermux/master/run.sh
 bash run.sh
-```
-
-Method 2
-
-```
-apt update && apt upgrade -y
-apt install git python
-git clone https://github.com/41Team/RoutersploitTermux
-cd RoutersploitTermux
-python run.py
 ```
 
 Note : Dont terminate termux when installation! Please terminate after installation is done.
