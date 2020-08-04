@@ -4,20 +4,9 @@ https://github.com/threat9/routersploit/issues/531
 
 I just simplified and fix the command so it will take less storage
 
-# I'm back!
-After 1 year im back again. I'll try updating this script as fast as possible. So be patience!
+# Updates
 
-# Installation
-
-```
-apt update && apt upgrade
-apt install git figlet
-curl -LO https://raw.githubusercontent.com/41Team/RoutersploitTermux/master/run.sh
-cd RoutersploitTermux
-bash run.sh
-```
-
-It will take time about 30min+
+Now this script can run with shell or python
 
 # Before Installation
 
@@ -28,6 +17,29 @@ It will take time about 30min+
 5. Enough of space 1GB-700mb
 6. Patience
 7. Look all the progress for tracking error problems
+
+# Installation
+
+Method 1
+
+```
+apt update && apt upgrade
+apt install git curl
+curl -LO https://raw.githubusercontent.com/41Team/RoutersploitTermux/master/run.sh
+bash run.sh
+```
+
+Method 2
+
+```
+apt update && apt upgrade -y
+apt install git
+git clone https://github.com/41Team/RoutersploitTermux
+cd RoutersploitTermux
+python run.py
+```
+
+Note : Dont terminate termux when installation! Please terminate after installation is done.
 
 # How to run routersploit
 
